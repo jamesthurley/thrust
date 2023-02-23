@@ -3,9 +3,22 @@
 A simple, clear VSCode theme with minimal distractions and tasteful orange accents (other colors are available).
 
 Why "a theme for Rust"? 
-I was writing Rust at the time, and read [this](https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/) blog post by Raul Jordan. 
+I was writing Rust at the time, and read [this blog post](https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/) by Raul Jordan. 
 The theme used in his code samples had orange accents for the keywords and operators, and I thought that worked really well. 
+The orange accents felt particularly well suited the Rust language.
 I couldn't find a existing similar theme for VSCode, so I decided to make one, and this is the result.
+
+Despite the name, the theme should work well in any language, and I've personally used it in anger for C#, TypeScript, Python, and, of course, Rust.
+
+# Theme Variants
+
+Currently this repository generates the following theme variants:
+```
+Thrust [Orange|Red|Yellow|Green] [Dark|Stealth|Wash]
+```
+## Thrust Orange Stealth Example
+
+<img src="https://github.com/jamesthurley/thrust/raw/main/thrust-orange-stealth.png" width="803px">
 
 ## Code Origins
 
@@ -57,24 +70,12 @@ https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
 https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide
 
 
-# Themes
-
-Currently this repository generates the following themes:
-```
-Thrust [Orange|Red|Yellow|Green] [Dark|Stealth|Wash]
-```
-## Thrust Orange Stealth Example
-
-
-<img src="https://github.com/jamesthurley/thrust/raw/main/thrust-orange-stealth.png" width="803px">
-
-
-## License
-
-GPL3, like the Pale Fire repo it is based on.
-
 ## Logo
 
 The Thrust logo was generated using [Midjourney](https://www.midjourney.com/).
 
 <img src="https://github.com/jamesthurley/thrust/raw/main/thrust-logo.png" width="400px">
+
+## License
+
+GPL3, like the Pale Fire repo it is based on.
