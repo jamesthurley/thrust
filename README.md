@@ -1,4 +1,6 @@
+
 # Thrust, a theme for Rust.
+<img src="https://github.com/jamesthurley/thrust/raw/main/icon.png" width="64px">
 
 A simple, clear VSCode theme with minimal distractions and tasteful orange accents (other colors are available).
 

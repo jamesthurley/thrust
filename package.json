@@ -5,8 +5,10 @@
   "icon": "icon.png",
   "publisher": "jamesthurley",
   "repository": {
-    "url": "https://github.com/jamesthurley/thrust"
+    "type": "git",
+    "url": "https://github.com/jamesthurley/thrust.git"
   },
+  "homepage": "https://github.com/jamesthurley/thrust/blob/main/README.md",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.41.0"
@@ -14,11 +16,16 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "Theme",
+    "Rust",
+    "Orange"
+  ],
   "scripts": {
     "package": "vsce package"
   },
   "devDependencies": {
-    "vsce": "^1.71.0"
+    "@vscode/vsce": "^2.15.0"
   },
   "contributes": {
     "themes": [
