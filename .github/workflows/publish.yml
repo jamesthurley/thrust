@@ -2,9 +2,8 @@ on:
   push:
     branches:
     - master
-  push:
     tags:
-      - "v*.*.*"
+    - "v*.*.*"
 
 jobs:
   publish:
