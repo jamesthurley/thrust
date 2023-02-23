@@ -2,13 +2,13 @@
 # Thrust, a theme for Rust.
 <img src="https://github.com/jamesthurley/thrust/raw/main/icon.png" width="64px">
 
-A simple, clear VSCode theme with minimal distractions and tasteful orange accents (other colors are available).
+A VSCode theme with minimal distractions and tasteful orange accents (other colors are available).
 
 Why "a theme for Rust"? 
 I was writing Rust at the time, and read [this blog post](https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/) by Raul Jordan. 
 The theme used in his code samples had orange accents for the keywords and operators, and I thought that worked really well. 
-The orange accents felt particularly well suited the Rust language.
-I couldn't find a existing similar theme for VSCode, so I decided to make one, and this is the result.
+The orange accents felt particularly well suited to the Rust language.
+I couldn't find an existing similar theme for VSCode, so I decided to make one, and this is the result.
 
 Despite the name, the theme should work well in any language, and I've personally used it in anger for C#, TypeScript, Python, and, of course, Rust.
 
