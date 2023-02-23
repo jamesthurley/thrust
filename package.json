@@ -1,0 +1,87 @@
+{
+  "name": "thrust-theme",
+  "displayName": "Thrust Theme",
+  "description": "Thrust, a theme for Rust.",
+  "icon": "icon.png",
+  "publisher": "jamesthurley",
+  "repository": {
+    "url": "https://github.com/jamesthurley/thrust"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^1.71.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thrust Orange Wash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Orange Wash-color-theme.json"
+      },
+      {
+        "label": "Thrust Red Wash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Red Wash-color-theme.json"
+      },
+      {
+        "label": "Thrust Green Wash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Green Wash-color-theme.json"
+      },
+      {
+        "label": "Thrust Yellow Wash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Yellow Wash-color-theme.json"
+      },
+      {
+        "label": "Thrust Orange Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Orange Dark-color-theme.json"
+      },
+      {
+        "label": "Thrust Red Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Red Dark-color-theme.json"
+      },
+      {
+        "label": "Thrust Green Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Green Dark-color-theme.json"
+      },
+      {
+        "label": "Thrust Yellow Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Yellow Dark-color-theme.json"
+      },
+      {
+        "label": "Thrust Orange Stealth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Orange Stealth-color-theme.json"
+      },
+      {
+        "label": "Thrust Red Stealth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Red Stealth-color-theme.json"
+      },
+      {
+        "label": "Thrust Green Stealth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Green Stealth-color-theme.json"
+      },
+      {
+        "label": "Thrust Yellow Stealth",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thrust Yellow Stealth-color-theme.json"
+      }
+    ]
+  }
+}

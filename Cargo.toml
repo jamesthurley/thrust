@@ -1,0 +1,20 @@
+[package]
+authors = ["James Thurley <james@thurley.com>"]
+edition = "2021"
+name = "thrust"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0"
+mottle = "0.5.0"
+paste = "1.0.11"
+typed-builder = "0.12.0"
+
+[dev-dependencies]
+float-cmp = "0.9.0"
+num = "0.4"
+image = "0.13.0"
+crossbeam = "0.8"
+
+[[example]]
+name = "mandelbrot"
