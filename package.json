@@ -9,7 +9,7 @@
     "url": "https://github.com/jamesthurley/thrust.git"
   },
   "homepage": "https://github.com/jamesthurley/thrust/blob/main/README.md",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.41.0"
   },
