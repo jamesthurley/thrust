@@ -22,7 +22,10 @@
     "Orange"
   ],
   "scripts": {
-    "package": "vsce package"
+    "package": "vsce package",
+    "preversion": "cargo test",
+    "version": "cargo run && git add -A themes",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.15.0"
