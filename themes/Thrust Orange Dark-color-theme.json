@@ -10,7 +10,7 @@
                 "keyword.other.this"
             ],
             "settings": {
-                "foreground": "#B1AFAB",
+                "foreground": "#FFACBD",
                 "fontStyle": "bold"
             }
         },
@@ -488,11 +488,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "selfParameter": {
-            "foreground": "#B1AFAB",
+            "foreground": "#FFACBD",
             "bold": true
         },
         "selfKeyword": {
-            "foreground": "#B1AFAB",
+            "foreground": "#FFACBD",
             "bold": true
         },
         "number": {
@@ -633,11 +633,11 @@
             "bold": true
         },
         "selfParameter.injected": {
-            "foreground": "#B1AFABAA",
+            "foreground": "#FFACBDAA",
             "bold": true
         },
         "selfKeyword.injected": {
-            "foreground": "#B1AFABAA",
+            "foreground": "#FFACBDAA",
             "bold": true
         },
         "number.injected": {
