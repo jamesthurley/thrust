@@ -73,7 +73,7 @@ impl Palette {
     }
 
     pub fn this(&self) -> PaletteOklch {
-        self.foreground().adjust_lightness(-2)
+        self.numbers()
     }
 
     pub fn strings(&self) -> PaletteOklch {
