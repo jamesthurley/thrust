@@ -11,7 +11,7 @@
             ],
             "settings": {
                 "foreground": "#E4DC89",
-                "fontStyle": "bold"
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -147,7 +147,8 @@
                 "variable.type"
             ],
             "settings": {
-                "foreground": "#FFB562"
+                "foreground": "#00C8D3",
+                "fontStyle": "italic bold"
             }
         },
         {
@@ -489,11 +490,18 @@
     "semanticTokenColors": {
         "selfParameter": {
             "foreground": "#E4DC89",
-            "bold": true
+            "bold": true,
+            "italic": true
         },
         "selfKeyword": {
             "foreground": "#E4DC89",
-            "bold": true
+            "bold": true,
+            "italic": true
+        },
+        "selfTypeKeyword": {
+            "foreground": "#E4DC89",
+            "bold": true,
+            "italic": true
         },
         "number": {
             "foreground": "#E4DC89"
@@ -559,7 +567,9 @@
             "foreground": "#00AFBA"
         },
         "typeParameter": {
-            "foreground": "#FFB562"
+            "foreground": "#00C8D3",
+            "bold": true,
+            "italic": true
         },
         "property": {
             "foreground": "#EEE6E3"
@@ -634,11 +644,18 @@
         },
         "selfParameter.injected": {
             "foreground": "#E4DC89AA",
-            "bold": true
+            "bold": true,
+            "italic": true
         },
         "selfKeyword.injected": {
             "foreground": "#E4DC89AA",
-            "bold": true
+            "bold": true,
+            "italic": true
+        },
+        "selfTypeKeyword.injected": {
+            "foreground": "#E4DC89AA",
+            "bold": true,
+            "italic": true
         },
         "number.injected": {
             "foreground": "#E4DC89AA"
@@ -704,7 +721,9 @@
             "foreground": "#00AFBAAA"
         },
         "typeParameter.injected": {
-            "foreground": "#FFB562AA"
+            "foreground": "#00C8D3AA",
+            "bold": true,
+            "italic": true
         },
         "property.injected": {
             "foreground": "#EEE6E3AA"
