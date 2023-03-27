@@ -243,8 +243,7 @@ dependencies = [
 [[package]]
 name = "mottle"
 version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d315e309148f1d5fa881f9e08f645b94f2ad025bae6914f6a410e71d9e65d3d"
+source = "git+https://github.com/jamesthurley/mottle.git?rev=74980ccb9862012b0fd63b8f67404877aef45922#74980ccb9862012b0fd63b8f67404877aef45922"
 dependencies = [
  "indexmap",
  "serde",

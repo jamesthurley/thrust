@@ -293,7 +293,12 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
             tm("variable.language.this"),
             tm("keyword.other.this"),
         ],
-        (p.this(), FontStyle::Bold),
+        (p.this(), FontStyle::Multi { bold: Some(true), italic: Some(true), underline: None }),
+    );
+
+    t.a(
+        [s("selfTypeKeyword")],
+        (p.this(), FontStyle::Multi { bold: Some(true), italic: Some(true), underline: None }),
     );
 
     t.a(
@@ -424,7 +429,7 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a(
         [s("typeParameter"), tm("entity.name.type.parameter"), tm("variable.type")],
-        p.orange().adjust_lightness(1),
+        (p.types(), FontStyle::Multi { bold: Some(true), italic: Some(true), underline: None }),
     );
 
     t.a(
