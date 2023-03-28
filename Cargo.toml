@@ -6,7 +6,7 @@ version = "0.1.0"
 
 [dependencies]
 anyhow = "1.0"
-mottle = { git = "https://github.com/jamesthurley/mottle.git", rev = "74980ccb9862012b0fd63b8f67404877aef45922" } # "0.5.0"
+mottle = { git = "https://github.com/jamesthurley/mottle.git", rev = "9ba183f78f6b8f848d7382b15b0c6b07f5d8e277" } # "0.5.0"
 paste = "1.0.11"
 typed-builder = "0.12.0"
 
