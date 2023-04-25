@@ -48,7 +48,7 @@ impl Palette {
 
     pub fn types(&self) -> PaletteOklch {
         (self.definition.types)(
-            self.accent().adjust_hue_degrees(180.).with_lightness(0.75).adjust_chroma(-3),
+            self.accent().adjust_hue_degrees(180.).with_lightness(0.76).adjust_chroma(-3),
         )
     }
 

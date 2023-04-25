@@ -383,8 +383,6 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a(
         [
             s("type"),
-            s("class"),
-            s("struct"),
             s("enum"),
             s("union"),
             s("typeAlias"),
@@ -396,17 +394,8 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         ],
         p.types(),
     );
-    t.a(
-        [
-            s("type.public.declaration"),
-            s("class.public.declaration"),
-            s("struct.public.declaration"),
-            s("enum.public.declaration"),
-            s("union.public.declaration"),
-            s("typeAlias.public.declaration"),
-        ],
-        p.types(),
-    );
+
+    t.a([s("class"), s("struct")], (p.types(), FontStyle::Bold));
 
     t.a(
         [
@@ -429,8 +418,26 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
 
     t.a(
         [s("typeParameter"), tm("entity.name.type.parameter"), tm("variable.type")],
-        (p.types(), FontStyle::Multi { bold: Some(true), italic: Some(true), underline: None }),
+        (p.types(), FontStyle::Multi { bold: None, italic: Some(true), underline: None }),
     );
+
+    t.a([s("interface")], (p.interfaces(), FontStyle::Italic));
+
+    // t.a([s("*.trait")], FontStyle::Italic);
+
+    // t.a(
+    //     [
+    //         s("type.public.declaration"),
+    //         s("class.public.declaration"),
+    //         s("struct.public.declaration"),
+    //         s("enum.public.declaration"),
+    //         s("union.public.declaration"),
+    //         s("typeAlias.public.declaration"),
+    //     ],
+    //     (p.types(), FontStyle::Bold),
+    // );
+
+    // t.a([s("interface.public.declaration")], p.interfaces().adjust_lightness(-1));
 
     t.a(
         [
@@ -452,10 +459,6 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         [tm("entity.name.tag.toml"), tm("entity.name.tag.yaml")],
         (p.properties(), FontStyle::Clear),
     );
-
-    t.a([s("interface")], (p.interfaces(), FontStyle::Italic));
-    t.a([s("interface.public.declaration")], p.interfaces().adjust_lightness(-1));
-    t.a([s("*.trait")], FontStyle::Italic);
 
     t.a(
         [

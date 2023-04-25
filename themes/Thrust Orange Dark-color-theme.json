@@ -119,7 +119,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#6EB6EC"
+                "foreground": "#71B9EF"
             }
         },
         {
@@ -138,7 +138,7 @@
                 "variable.other.metavariable.specifier"
             ],
             "settings": {
-                "foreground": "#589FD4"
+                "foreground": "#5BA2D7"
             }
         },
         {
@@ -147,8 +147,8 @@
                 "variable.type"
             ],
             "settings": {
-                "foreground": "#6EB6EC",
-                "fontStyle": "italic bold"
+                "foreground": "#71B9EF",
+                "fontStyle": "italic"
             }
         },
         {
@@ -528,61 +528,38 @@
             "foreground": "#FFFCDA"
         },
         "type": {
-            "foreground": "#6EB6EC"
-        },
-        "class": {
-            "foreground": "#6EB6EC"
-        },
-        "struct": {
-            "foreground": "#6EB6EC"
+            "foreground": "#71B9EF"
         },
         "enum": {
-            "foreground": "#6EB6EC"
+            "foreground": "#71B9EF"
         },
         "union": {
-            "foreground": "#6EB6EC"
+            "foreground": "#71B9EF"
         },
         "typeAlias": {
-            "foreground": "#6EB6EC"
+            "foreground": "#71B9EF"
         },
-        "type.public.declaration": {
-            "foreground": "#6EB6EC"
+        "class": {
+            "foreground": "#71B9EF",
+            "bold": true
         },
-        "class.public.declaration": {
-            "foreground": "#6EB6EC"
-        },
-        "struct.public.declaration": {
-            "foreground": "#6EB6EC"
-        },
-        "enum.public.declaration": {
-            "foreground": "#6EB6EC"
-        },
-        "union.public.declaration": {
-            "foreground": "#6EB6EC"
-        },
-        "typeAlias.public.declaration": {
-            "foreground": "#6EB6EC"
+        "struct": {
+            "foreground": "#71B9EF",
+            "bold": true
         },
         "builtinType": {
-            "foreground": "#589FD4"
+            "foreground": "#5BA2D7"
         },
         "typeParameter": {
-            "foreground": "#6EB6EC",
-            "bold": true,
+            "foreground": "#71B9EF",
+            "italic": true
+        },
+        "interface": {
+            "foreground": "#5BA2D7",
             "italic": true
         },
         "property": {
             "foreground": "#E6E4E1"
-        },
-        "interface": {
-            "foreground": "#589FD4",
-            "italic": true
-        },
-        "interface.public.declaration": {
-            "foreground": "#448BBF"
-        },
-        "*.trait": {
-            "italic": true
         },
         "namespace": {
             "foreground": "#CAC8C5"
@@ -682,62 +659,38 @@
             "foreground": "#FFFCDAAA"
         },
         "type.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "class.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "struct.injected": {
-            "foreground": "#6EB6ECAA"
+            "foreground": "#71B9EFAA"
         },
         "enum.injected": {
-            "foreground": "#6EB6ECAA"
+            "foreground": "#71B9EFAA"
         },
         "union.injected": {
-            "foreground": "#6EB6ECAA"
+            "foreground": "#71B9EFAA"
         },
         "typeAlias.injected": {
-            "foreground": "#6EB6ECAA"
+            "foreground": "#71B9EFAA"
         },
-        "type.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
+        "class.injected": {
+            "foreground": "#71B9EFAA",
+            "bold": true
         },
-        "class.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "struct.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "enum.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "union.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
-        },
-        "typeAlias.public.declaration.injected": {
-            "foreground": "#6EB6ECAA"
+        "struct.injected": {
+            "foreground": "#71B9EFAA",
+            "bold": true
         },
         "builtinType.injected": {
-            "foreground": "#589FD4AA"
+            "foreground": "#5BA2D7AA"
         },
         "typeParameter.injected": {
-            "foreground": "#6EB6ECAA",
-            "bold": true,
+            "foreground": "#71B9EFAA",
+            "italic": true
+        },
+        "interface.injected": {
+            "foreground": "#5BA2D7AA",
             "italic": true
         },
         "property.injected": {
             "foreground": "#E6E4E1AA"
-        },
-        "interface.injected": {
-            "foreground": "#589FD4AA",
-            "italic": true
-        },
-        "interface.public.declaration.injected": {
-            "foreground": "#448BBFAA"
-        },
-        "*.trait.injected": {
-            "foreground": "#E6E4E1AA",
-            "italic": true
         },
         "namespace.injected": {
             "foreground": "#CAC8C5AA"
@@ -931,11 +884,11 @@
         "symbolIcon.variableForeground": "#E6E4E1",
         "symbolIcon.functionForeground": "#FFFCDA",
         "symbolIcon.methodForeground": "#FFFCDA",
-        "symbolIcon.classForeground": "#6EB6EC",
-        "symbolIcon.structForeground": "#6EB6EC",
-        "symbolIcon.enumeratorForeground": "#6EB6EC",
-        "symbolIcon.typeParameterForeground": "#6EB6EC",
-        "symbolIcon.interfaceForeground": "#589FD4",
+        "symbolIcon.classForeground": "#71B9EF",
+        "symbolIcon.structForeground": "#71B9EF",
+        "symbolIcon.enumeratorForeground": "#71B9EF",
+        "symbolIcon.typeParameterForeground": "#71B9EF",
+        "symbolIcon.interfaceForeground": "#5BA2D7",
         "symbolIcon.constantForeground": "#4377CD",
         "symbolIcon.enumeratorMemberForeground": "#4377CD",
         "symbolIcon.fieldForeground": "#E6E4E1",
