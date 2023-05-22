@@ -311,7 +311,8 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
             tm("keyword.operator.wordlike"),
             tm("keyword.type.elm"),
             tm("keyword.type.go"),
-            tm("keyword"),
+            // We are using `source` here to prevent the semantic token mapping to `keyword`, which was overriding `this` highlighting in C#.
+            tm("source keyword"),
             tm("keyword.operator.logical.python"),
             tm("keyword.operator.in"), // in keyword
             tm("punctuation.definition.heading"),

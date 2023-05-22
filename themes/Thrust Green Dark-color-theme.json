@@ -22,7 +22,7 @@
                 "keyword.operator.wordlike",
                 "keyword.type.elm",
                 "keyword.type.go",
-                "keyword",
+                "source keyword",
                 "keyword.operator.logical.python",
                 "keyword.operator.in",
                 "punctuation.definition.heading",
