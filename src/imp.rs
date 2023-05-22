@@ -511,10 +511,29 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         p.blue(),
     );
 
-    t.a([s("comment"), tm("comment"), tm("punctuation.definition.comment")], p.comments());
+    // The semantic token `comment` interferes with syntax highlighting
+    // of doc comments in some languages (e.g. C#), because the
+    // generic `comment` semantic token overrides the
+    // more specific textmate scopes.
+    // However a missing `comment` semantic token is automatically added
+    // and mapped to the textmate `comment` scope. To prevent this we use
+    // `source comment` for our defined textmate scope.
+    // https://stackoverflow.com/a/71857132/37725
+    t.a(
+        [
+            // s("comment"),
+            tm("source comment"),
+            tm("punctuation.definition.comment"),
+        ],
+        p.comments(),
+    );
 
     t.a(
-        [s("comment.documentation"), tm("comment.line.documentation")],
+        [
+            // s("comment.documentation"),
+            tm("comment.line.documentation"),
+            tm("comment.block.documentation"),
+        ],
         p.comments().adjust_lightness(1),
     );
 

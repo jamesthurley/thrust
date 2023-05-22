@@ -238,7 +238,7 @@
         },
         {
             "scope": [
-                "comment",
+                "source comment",
                 "punctuation.definition.comment"
             ],
             "settings": {
@@ -247,7 +247,8 @@
         },
         {
             "scope": [
-                "comment.line.documentation"
+                "comment.line.documentation",
+                "comment.block.documentation"
             ],
             "settings": {
                 "foreground": "#6FA871"
@@ -577,12 +578,6 @@
         "formatSpecifier": {
             "foreground": "#3366BB"
         },
-        "comment": {
-            "foreground": "#5C945E"
-        },
-        "comment.documentation": {
-            "foreground": "#6FA871"
-        },
         "attribute": {
             "foreground": "#3366BB"
         },
@@ -707,12 +702,6 @@
         },
         "formatSpecifier.injected": {
             "foreground": "#3366BBAA"
-        },
-        "comment.injected": {
-            "foreground": "#5C945EAA"
-        },
-        "comment.documentation.injected": {
-            "foreground": "#6FA871AA"
         },
         "attribute.injected": {
             "foreground": "#3366BBAA"
