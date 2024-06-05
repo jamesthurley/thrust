@@ -96,6 +96,11 @@ run the tests, and push it.
 
 The GitHub actions are then configured to publish the new version to the VSCode marketplace.
 
+To create a new Marketplace personal access token follow the instructions here:
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+
 ### Useful Links
 
 https://code.visualstudio.com/api/references/theme-color
