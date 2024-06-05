@@ -292,6 +292,7 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
             tm("variable.language.special.self"),
             tm("variable.language.this"),
             tm("keyword.other.this"),
+            tm("variable.language.super"),
         ],
         (p.this(), FontStyle::Multi { bold: Some(true), italic: Some(true), underline: None }),
     );

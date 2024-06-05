@@ -7,7 +7,8 @@
                 "variable.language.self",
                 "variable.language.special.self",
                 "variable.language.this",
-                "keyword.other.this"
+                "keyword.other.this",
+                "variable.language.super"
             ],
             "settings": {
                 "foreground": "#E4DC89",
